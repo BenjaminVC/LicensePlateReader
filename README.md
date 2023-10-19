@@ -1,9 +1,9 @@
-# Traffic Violation Detection System Simulation
+# Traffic Violation Detection System Simulation on AWS
 ## Overview
 This project simulates a system that allows cities to use cameras at road intersections to identify and bill drivers who commit traffic violations at traffic lights. 
 The simulation uses a hybrid cloud architecture to demonstrate the integration of various technologies and services.
 ## Features
-- **License Plate Recognition**:Designed for traffic lights in California, recognizing plates with 7 characters (A-Z, 0-9).
+- **License Plate Recognition**:Designed for traffic lights in California, recognizing plates with 7 characters (A-Z, 0-9) using **AWS Rekognition**.
 - **Email Notifications**: Simulated violation notices sent via email.
 - **Local DMV Database Integration**: Fetches driver email accounts from a mock DMV database.
 - **AWS EventBridge Integration**: Non-California vehicle violations are sent to an AWS EventBridge bus.
